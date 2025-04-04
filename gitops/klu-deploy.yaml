@@ -1,0 +1,15 @@
+apiVersion: gitops.kluctl.io/v1beta1
+kind: KluctlDeployment
+metadata:
+  name: kluctl-experiment
+spec:
+  interval: 5m
+  source:
+    git:
+      url: https://github.com/dag-andersen/kluctl-experiment.git
+      path: "./apps"
+  timeout: 2m
+  target: dev
+  prune: true
+  delete: true
+  manual: true

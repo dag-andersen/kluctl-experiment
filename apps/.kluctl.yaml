@@ -1,0 +1,18 @@
+discriminator: "my-project-{{ target.name }}"
+
+targets:
+  # test cluster, dev env
+  - name: dev
+    args:
+      environment: dev
+  # test cluster, test env
+  - name: test
+    args:
+      environment: test
+  # prod cluster, prod env
+  - name: prod
+    args:
+      environment: prod
+
+args:
+  - name: environment

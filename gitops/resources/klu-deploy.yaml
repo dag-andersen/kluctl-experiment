@@ -9,7 +9,6 @@ spec:
       url: https://github.com/dag-andersen/kluctl-experiment.git
       path: "./apps"
   timeout: 2m
-  target: dev
   prune: true
   delete: true
-  manual: true
+  manual: false

@@ -1,0 +1,5 @@
+discriminator: "my-project-{{ target.name }}"
+
+targets:
+  - name: prod
+  - name: staging

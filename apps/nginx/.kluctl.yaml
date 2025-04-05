@@ -1,0 +1,12 @@
+discriminator: "nginx-{{ target.name }}"
+
+targets:
+  - name: staging
+    args:
+      environment: staging
+  - name: prod
+    args:
+      environment: prod
+
+args:
+  - name: environment

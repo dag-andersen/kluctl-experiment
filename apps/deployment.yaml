@@ -1,0 +1,6 @@
+deployments:
+- include: cert-manager
+- include: nginx
+
+vars:
+  - file: ./vars/{{ args.env }}.yaml

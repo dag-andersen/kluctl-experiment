@@ -1,0 +1,12 @@
+discriminator: "my-project-{{ target.name }}"
+
+targets:
+  - name: prod
+    args:
+      env: prod
+  - name: staging
+    args:
+      env: staging
+
+args:
+  - name: env

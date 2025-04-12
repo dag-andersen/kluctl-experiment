@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:{{ args.imageTag }}
+          image: nginx:{{ nginx.imageTag }}
           ports:
             - containerPort: 80

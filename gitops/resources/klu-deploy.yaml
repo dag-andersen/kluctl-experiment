@@ -7,10 +7,8 @@ spec:
   source:
     git:
       url: https://github.com/dag-andersen/kluctl-experiment.git
-      path: "./apps/nginx"
+      path: "./apps"
   timeout: 2m
-  args:
-    imageTag: 1.27.0
   target: {{ args.env }}
   prune: true
   delete: true

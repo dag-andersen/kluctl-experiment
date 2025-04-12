@@ -1,8 +1,0 @@
-discriminator: "nginx-{{ target.name }}"
-
-targets:
-  - name: staging
-  - name: prod
-
-args:
-  - name: imageTag

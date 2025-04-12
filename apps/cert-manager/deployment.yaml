@@ -1,0 +1,12 @@
+deployments:
+- path: ns
+- barrier: true
+- path: crds
+- barrier: true
+- barrier: true
+- path: resources
+# - git:
+#     url: git@github.com/cert-manager/cert-manager.git
+#     ref:
+#       tag: release-1.17
+#     subDir: deploy/crds

@@ -3,7 +3,6 @@ deployments:
 - barrier: true
 - path: crds
 - barrier: true
-- barrier: true
 - path: resources
 # - git:
 #     url: git@github.com/cert-manager/cert-manager.git

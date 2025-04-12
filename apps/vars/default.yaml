@@ -1,0 +1,3 @@
+nginx:
+  initContainers:
+    enabled: false

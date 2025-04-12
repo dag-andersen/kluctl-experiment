@@ -1,2 +1,4 @@
 nginx:
   imageTag: 1.25.4-alpine
+  initContainers:
+    enabled: true 

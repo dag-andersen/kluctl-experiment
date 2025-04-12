@@ -3,4 +3,5 @@ deployments:
 - include: nginx
 
 vars:
+  - file: ./vars/default.yaml
   - file: ./vars/{{ args.env }}.yaml

@@ -1,4 +1,4 @@
-discriminator: "my-project-{{ target.name }}"
+discriminator: "apps-{{ target.name }}"
 
 targets:
   - name: prod

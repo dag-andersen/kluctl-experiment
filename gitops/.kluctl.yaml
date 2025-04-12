@@ -1,4 +1,4 @@
-discriminator: "my-project-{{ target.name }}"
+discriminator: "gitops-{{ target.name }}"
 
 targets:
   - name: prod
